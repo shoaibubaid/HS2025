@@ -58,9 +58,9 @@ pt_all = data['textin_array']
 ct_all = data['textout_array']
 key_array = data['key_array']
 
-print('plaintext:',textin_array[0])
+print('plaintext:',pt_all[0])
 print('key:',key_array[0])
-print('ciphertext:',textout_array[0])
+print('ciphertext:',ct_all[0])
 
 
 for t in range(16):
